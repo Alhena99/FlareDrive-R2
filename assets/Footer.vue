@@ -7,9 +7,7 @@
         rel="noopener noreferrer">FlareDrive-R2</a>
     </div>
 
-    <div class="powered">Powered by <a href="https://cloudflare.com/" target="_blank"
-        rel="noopener noreferrer">Cloudflare</a></div> & <a href="https://github.com/Alhena99" target="_blank"
-        rel="noopener noreferrer">GAlhena</a></div>
+    <div class="powered">Powered by <a href="https://cloudflare.com/" target="_blank"rel="noopener noreferrer">Cloudflare</a></div> & <a href="https://github.com/Alhena99" target="_blank"rel="noopener noreferrer">GAlhena</a></div>
 
     <div style="margin:10px 0;">© 2025 Moealkyne攻略组. All rights reserved.</div>
   </footer>
