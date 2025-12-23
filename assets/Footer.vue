@@ -3,12 +3,13 @@
     
 
     <div class="project-links">
-      <strong>Github开源项目:</strong><a href="https://github.com/Alhena99/FlareDrive-R2" target="_blank"
-        rel="noopener noreferrer">FlareDrive-R2增强版</a>
+      <strong>此GitHub项目:</strong><a href="https://github.com/Alhena99/FlareDrive-R2" target="_blank"
+        rel="noopener noreferrer">FlareDrive-R2</a>
     </div>
 
-    <div class="powered">Powered by <a href="https://workers.cloudflare.com/" target="_blank"
-        rel="noopener noreferrer">Cloudflare Workers</a></div>
+    <div class="powered">Powered by <a href="https://cloudflare.com/" target="_blank"
+        rel="noopener noreferrer">Cloudflare</a></div> & <a href="https://github.com/Alhena99" target="_blank"
+        rel="noopener noreferrer">GAlhena</a></div>
 
     <div style="margin:10px 0;">© 2025 Moealkyne攻略组. All rights reserved.</div>
   </footer>
