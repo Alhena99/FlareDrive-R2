@@ -20,12 +20,8 @@
     </div>
 
     <div class="project-links">
-      <strong>到这已经是第三开了:</strong><a href="https://github.com/52op/FlareDrive-R2" target="_blank"
+      <strong>Github开源项目:</strong><a href="https://github.com/Alhena99/FlareDrive-R2" target="_blank"
         rel="noopener noreferrer">FlareDrive-R2增强版</a>
-      <strong>感谢:</strong><a href="https://github.com/willow-god/FlareDrive-R2" target="_blank"
-        rel="noopener noreferrer">FlareDrive-R2</a>
-      <strong>初始项目:</strong><a href="https://github.com/ljxi/Cloudflare-R2-oss" target="_blank"
-        rel="noopener noreferrer">Cloudflare-R2-OSS</a>
     </div>
 
     <div class="powered">Powered by <a href="https://workers.cloudflare.com/" target="_blank"
@@ -40,10 +36,10 @@ export default {
   name: "Footer",
   data() {
     return {
-      homeUrl: "https://www.sztcrs.com/",
-      blogUrl: "https://blog.sztcrs.com/",
-      githubUrl: "https://github.com/52op",
-      emailUrl: "mailto:admin@sztcrs.com"
+      homeUrl: "https://mc.ghub.site/",
+      blogUrl: "https://github.com/",
+      githubUrl: "https://github.com/Alhena",
+      emailUrl: "https://github.com/Alhena"
     };
   }
 };
