@@ -1672,7 +1672,7 @@ export default {
         } else if (this.order === "大小↓") {
           return b.size - a.size;
         } else {
-          return a.key.localeCompare(b.key);
+          return b.key.localeCompare(a.key);
         }
       });
     },
