@@ -571,7 +571,7 @@ export default {
     clipboard: null,
     focusedItem: null,
     loading: false,
-    order: null,
+    order:  (a, b) => b.key.localeCompare(a.key),
     search: "",
     searchResults: [], // 全局搜索结果
     isSearching: false, // 搜索状态
