@@ -1652,30 +1652,34 @@ export default {
     },
 
     onMenuClick(text) {
-      switch (text) {
-        case "按照名称排序A-Z":
-          this.order = null;
-          break;
-        case "按照大小递增排序":
-          this.order = "大小↑";
-          break;
-        case "按照大小递减排序":
-          this.order = "大小↓";
-          break;
-        case "粘贴文件到此目录":
-          this.pasteFile();
-          return; // 粘贴操作不需要排序
-      }
-      this.files.sort((a, b) => {
-        if (this.order === "大小↑") {
-          return a.size - b.size;
-        } else if (this.order === "大小↓") {
-          return b.size - a.size;
-        } else {
-          return a.key.localeCompare(b.key);
-        }
-      });
-    },
+  switch (text) {
+    case "按照名称排序A-Z":
+      this.order = "名称Z-A";  // 默认改为名称Z-A排序
+      break;
+    case "按照大小递增排序":
+      this.order = "大小↑";
+      break;
+    case "按照大小递减排序":
+      this.order = "大小↓";
+      break;
+    case "粘贴文件到此目录":
+      this.pasteFile();
+      return; // 粘贴操作不需要排序
+  }
+  this.files.sort((a, b) => {
+    if (this.order === "大小↑") {
+      return a.size - b.size;  // 按大小递增排序
+    } else if (this.order === "大小↓") {
+      return b.size - a.size;  // 按大小递减排序
+    } else if (this.order === "名称Z-A") {
+      return b.key.localeCompare(a.key);  // 按名称Z-A排序
+    } else {
+      return a.key.localeCompare(b.key);  // 默认按名称A-Z排序
+    }
+  });
+}
+
+    
 
     onUploadClicked(fileElement) {
       if (!fileElement.value) return;
