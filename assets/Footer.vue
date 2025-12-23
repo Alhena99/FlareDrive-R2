@@ -51,7 +51,7 @@ export default {
   padding: 20px;
   background-color: #ffffff77;
   font-size: 16px;
-  border-radius: 50% 50% 0 0;
+ 
 
 }
 
