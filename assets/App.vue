@@ -134,7 +134,7 @@
         </button>
         <Menu v-model="showMenu"
           :items="[
-            { text: '按照名称排序A-Z' },
+            { text: '按照名称排序Z-A' },
             { text: '按照大小递增排序' },
             { text: '按照大小递减排序' },
             { text: '粘贴文件到此目录', disabled: !clipboard || !canWrite }
@@ -1653,7 +1653,7 @@ export default {
 
     onMenuClick(text) {
       switch (text) {
-        case "按照名称排序Z-A":
+        case "按照名称排序A-Z":
           this.order = null;
           break;
         case "按照大小递增排序":
@@ -1672,7 +1672,7 @@ export default {
         } else if (this.order === "大小↓") {
           return b.size - a.size;
         } else {
-          return b.key.localeCompare(a.key);
+          return a.key.localeCompare(b.key);
         }
       });
     },
