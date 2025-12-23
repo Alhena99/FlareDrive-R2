@@ -15,9 +15,7 @@
       </a>
     </div>
 
-    <div class="stats">
-      访问次数：<span id="vercount_value_site_pv">😯</span>次 | 访客人数：<span id="vercount_value_site_uv">😯</span>人
-    </div>
+    
 
     <div class="project-links">
       <strong>Github开源项目:</strong><a href="https://github.com/Alhena99/FlareDrive-R2" target="_blank"
@@ -27,7 +25,7 @@
     <div class="powered">Powered by <a href="https://workers.cloudflare.com/" target="_blank"
         rel="noopener noreferrer">Cloudflare Workers</a></div>
 
-    <div style="margin:10px 0;">© 2025 FlareDrive. All rights reserved.</div>
+    <div style="margin:10px 0;">© 2025 Moealkyne攻略组. All rights reserved.</div>
   </footer>
 </template>
 
@@ -37,9 +35,9 @@ export default {
   data() {
     return {
       homeUrl: "https://mc.ghub.site/",
-      blogUrl: "https://github.com/",
-      githubUrl: "https://github.com/Alhena",
-      emailUrl: "https://github.com/Alhena"
+      blogUrl: "https://github.com/Alhena99",
+      githubUrl: "https://github.com/Alhena99",
+      emailUrl: "https://github.com/Alhena99"
     };
   }
 };
