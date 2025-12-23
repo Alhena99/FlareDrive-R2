@@ -1653,7 +1653,7 @@ export default {
 
     onMenuClick(text) {
       switch (text) {
-        case "按照名称排序A-Z":
+        case "按照名称排序Z-A":
           this.order = null;
           break;
         case "按照大小递增排序":
@@ -1672,7 +1672,7 @@ export default {
         } else if (this.order === "大小↓") {
           return b.size - a.size;
         } else {
-          return a.key.localeCompare(b.key);
+          return b.key.localeCompare(a.key);
         }
       });
     },
