@@ -987,7 +987,8 @@ export default {
             this.files.sort((a, b) => {
               if (this.order === "size") {
                 return b.size - a.size;
-              }
+              } else {
+                return b.key.localeCompare(a.key);}
             });
           }
           this.loading = false;
