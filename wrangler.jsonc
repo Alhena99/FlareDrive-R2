@@ -2,6 +2,6 @@
   "name": "R2Work", // 你的项目名称
   "compatibility_date": "2025-06-04", // 兼容日期，建议保持较新
   "assets": {
-    "directory": "./dist" // 静态资源所在的文件夹，通常是 build 或 dist
+    "directory": "./" // 静态资源所在的文件夹，通常是 build 或 dist
   }
 }
